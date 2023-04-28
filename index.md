@@ -7,6 +7,6 @@ Times up, Overblow
 
 {% for post in site.posts %}
   
-  <h2>>><img src="https://github.com/chuckjee.png?size=50">@{{ post.title }} - {{ post.date }}</h2>
+  <p>>><img src="https://github.com/chuckjee.png?size=50">@{{ post.title }} - {{ post.date }}</p>
   <p>&emsp;>>{{ post.content | markdownify }}</p>
 {% endfor %}
